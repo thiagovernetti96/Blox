@@ -29,7 +29,7 @@ class SalasController < ApplicationController
   
   
     def new
-      @activity = Activity.new
+      @sala = Sala.new
     end
   
     def create
