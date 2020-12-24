@@ -1,0 +1,2 @@
+class SalasController < ApplicationController
+end
