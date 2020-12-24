@@ -35,6 +35,7 @@ class SalasController < ApplicationController
     def create
       @sala = Sala.new(sala_params)
       @sala.user = current_user
+      
   
       if @sala.save
         redirect_to sala_path(@sala), notice: "Sala criada"
